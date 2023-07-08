@@ -1,0 +1,52 @@
+h1 {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h4 {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+th,
+td,
+p,
+input {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+table,
+th,
+td {
+  border: solid 1px #ddd;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: center;
+}
+th {
+  font-weight: bold;
+}
+.container {
+  margin: auto;
+}
+#fileupload {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+#prediction {
+  width: 50%;
+  float: right;
+  height: 100%;
+}

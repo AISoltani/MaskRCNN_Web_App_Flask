@@ -1,0 +1,19 @@
+<html>
+  <center><h1>Food Recognition Challenge</h1></center>
+  <center><h4>Can AI guess what you are eating ?</h4></center>
+  <head>
+    <link rel="stylesheet" href="static/styles/styles.css">
+  </head>
+  <body>
+    <div id="fileupload">
+      <center>
+        <h1>File Upload</h1>
+        {{ dropzone.load_css() }}
+        {{ dropzone.style('border: 2px dashed #0087F7; margin: 5%; min-height: 400px; max-width:600px') }}  
+        {{ dropzone.create('upload_files') }}
+        {{ dropzone.load_js() }}
+        {{ dropzone.config() }}
+      </center>
+    </div>
+  </body>
+</html>
