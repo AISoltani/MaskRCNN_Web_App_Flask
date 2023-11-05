@@ -1,6 +1,6 @@
 ## The MaskRCNN Web App
 
-This repo contains code to serve a Matterport MaskRCNN model as a webapp for easy visualization of results.
+This repo contains code to serve a Matterport MaskRCNN model as a webapp for easy visualization of results on web server.
 
 ![demo gif](assets/demo.gif)
 
