@@ -12,7 +12,6 @@ import sys
 from flask_dropzone import Dropzone
 #for visualizing outputs
 import matplotlib.pyplot as plt
-
 #ModelspecificPackages============
 
 ROOT_DIR = os.getcwd()
