@@ -43,7 +43,6 @@ app.config.update(
 DROPZONE_REDIRECT_VIEW='prediction',  # set redirect view
 DROPZONE_MAX_FILES=20,
 )
-
 dropzone = Dropzone(app)
 run_with_ngrok(app) #comment if not using colab
 #=======================================
