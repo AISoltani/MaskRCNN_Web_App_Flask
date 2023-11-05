@@ -4,7 +4,6 @@ from flask import Flask, render_template, request, redirect, url_for, abort, \
     send_from_directory,jsonify,session
 from flask_dropzone import Dropzone
 from flask_ngrok import run_with_ngrok #comment if not using colab
-
 from werkzeug.utils import secure_filename
 from PIL import Image
 import numpy as np
