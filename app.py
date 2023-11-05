@@ -41,7 +41,6 @@ app.config['MODEL_PATH'] = 'model/mask_rcnn_food-challenge_0026.h5'
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.secret_key = "thisisasupersecretkey"  
 
-
 app.config.update(
 DROPZONE_REDIRECT_VIEW='prediction',  # set redirect view
 DROPZONE_MAX_FILES=20,
