@@ -1,12 +1,10 @@
 __author__ = 'tsungyi'
-
 import numpy as np
 import datetime
 import time
 from collections import defaultdict
 from pycocotools import mask as maskUtils
 import copy
-
 """
 This script has been taken (and modified) from :
 https://github.com/crowdAI/coco/blob/master/PythonAPI/pycocotools/cocoeval.py
@@ -14,7 +12,7 @@ https://github.com/crowdAI/coco/blob/master/PythonAPI/pycocotools/cocoeval.py
 
 
 class COCOeval:
-    # Interface for evaluating detection on the Microsoft COCO dataset.
+    # Interface for evaluating detection on the Microsoft COCO dataset...
     #
     # The usage for CocoEval is as follows:
     #  cocoGt=..., cocoDt=...       # load dataset and results
