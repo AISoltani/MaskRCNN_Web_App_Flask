@@ -1,15 +1,14 @@
 from mrcnn import utils
 import numpy as np
-
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 from pycocotools import mask as maskUtils
 
 import os
 
-############################################################
+###########################################################
 #  Dataset
-############################################################
+###########################################################
 
 class FoodDataset(utils.Dataset):
     def load_dataset(self, dataset_dir, load_small=False, return_coco=True):
