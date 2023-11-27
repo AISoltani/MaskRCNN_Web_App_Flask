@@ -7,12 +7,12 @@ Licensed under the MIT License (see LICENSE for details)
 Written by Waleed Abdulla
 """
 
+
 import math
 import numpy as np
 
-
-# Base Configuration Class
-# Don't use this class directly. Instead, sub-class it and override
+# Base Configuration Class.
+# Don't use this class directly. Instead, sub-class it and override.
 # the configurations you need to change.
 
 class Config(object):
